@@ -1,3 +1,3 @@
 number = int(input())
 for x in range(number) :
-    print((" ")*((number)-(x+1))+(x+1)*"*")
+    print((" "*(number-(x+1))+("*"*(x+x+1))))
